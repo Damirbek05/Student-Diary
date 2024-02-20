@@ -1,0 +1,15 @@
+.formap{
+    height: 550px;
+    display: flex;
+    background: url('../img/mediapage/mediaback.jpg');
+}
+.mapoutside{
+    border: 2px solid black;
+    display: block;
+    width: 900px;
+    height: 70%;
+    margin: auto;
+}
+#map-canvas {
+    height: 100%;  
+}
