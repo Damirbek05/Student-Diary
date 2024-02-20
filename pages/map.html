@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/map.css">
+        <link rel="shortcut icon" href="../img/icon.png" type="image/png">
+        <script src="../js/jquery-3.6.0.min.js"></script>
+        <script src="../js/lean-slider.js"></script>
+        <script src="../js/map.js"></script>
+        <title>Map</title>
+    </head>
+    <body>
+        <header>
+            <div class="navpanel">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">HOME</a></li>
+                        <li class="thispage"><a href="#">MAP</a></li>
+                        <li><a href="../pomodoro/index.html">POMODORO</a></li>
+                        <li><a href="todo.html">TODO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="formap">
+                <div class="mapoutside">
+                    <div id="map-canvas"></div>
+                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap">
+                    </script>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <table>
+                <tr>
+                    <th>ABOUT</th>
+                    <th>SOCIAL MEDIA</th>
+                    
+                </tr>
+                <tr>
+                    <td><a href="./pages/about.html">About us</a></td>
+                    <td><a href="https://www.instagram.com/assetskyi/"><img class="footerico" src="./img/ico/instagramico.png" alt=""> Instagram</a></td>
+                    
+                </tr>
+                <tr>
+                    <td><a href="./pages/terms.html">Terms</a></td>
+                    <td><a href="https://www.youtube.com/channel/UCzY7BDP6MwHs_XQlYGBmdxA/"><img class="footerico" src="./img/ico/youtubeico.png" alt="">YouTube</a></td>
+                    
+                </tr>
+                <tr>
+                    <td><a href="./pages/shop.html">Store</a></td>
+                    <td><a href="https://t-do.ru/assetskyi"><img class="footerico" src="./img/ico/telegramico.png" alt="">Telegram</a></td>
+                    <td><a href=""></a></td>
+                </tr>
+            </table>
+        </footer>
+    </body>
+</html>
