@@ -1,6 +1,6 @@
 # Student's Diary Project
 
-## DEMO ==> 
+## DEMO ==> https://damirbek05.github.io/Student-Diary/
 
 ## Overview
 Welcome to the Student's Diary project! This web application is designed to assist students in organizing their daily activities, providing features like a home page, a map displaying co-working places in Astana, a Pomodoro timer, and a ToDo page for note-taking.
